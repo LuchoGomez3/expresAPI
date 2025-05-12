@@ -2,8 +2,10 @@
   "name": "expresapi",
   "version": "1.0.0",
   "description": "This is an API with express to show some of my knowledge about Node.js",
-  "main": "server.js",
+  "main": "server.mjs",
+  "type": "module",
   "scripts": {
+    "dev": "node --watch server.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,7 +23,17 @@
   },
   "homepage": "https://github.com/LuchoGomez3/expresAPI#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^16.5.0",
-    "express": "^5.1.0"
+    "express": "5.1.0",
+    "zod": "^3.24.4"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.26.0",
+    "eslint": "^8.57.1",
+    "eslint-config-prettier": "^10.1.5",
+    "globals": "^16.1.0",
+    "prettier": "3.5.3",
+    "standard": "^17.1.2"
   }
 }

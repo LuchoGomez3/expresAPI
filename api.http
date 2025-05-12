@@ -1,0 +1,35 @@
+### Productos
+GET http://localhost:1234/movies
+
+###
+GET http://localhost:1234/movies/tt0108052
+
+### 
+GET http://localhost:1234/movies?genre=Drama
+
+### POST
+POST http://localhost:1234/movies
+Content-Type: application/json
+
+{
+      "titulo": "El caballero oscuro 2",
+      "titulo_original": "The Dark Knight 2",
+      "año": 2001,
+      "director": "Luciano Gome",
+      "actores_principales": ["Yo", "Heath Ledger", "Aaron Eckhart"],
+      "generos": ["Acción", "Crimen", "Drama"],
+      "duracion": 144,
+      "clasificacion": "PG-18",
+      "sinopsis": "Cuando la amenaza conocida como el cacas causa estragos y caos en la gente de AG, Lucho debe aceptar una de las mayores pruebas psicológicas y físicas de su capacidad para luchar contra la injusticia.",
+      "puntaje_imdb": 10.0,
+      "poster": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk0Mw@@._V1_QL75_UX190_CR0,4,190,281_.jpg"
+    }
+
+### Actualizar parcialmente una pelicula
+PATCH http://localhost:1234/movies/a42ea66c-09d9-4251-9fe6-31597900148c
+Content-Type: application/json
+
+{
+    "año": 2000,
+    "director": "Luciano Gomez"
+}

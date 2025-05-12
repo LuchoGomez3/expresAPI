@@ -1,0 +1,72 @@
+[
+  {
+    "id": "tt0111161",
+    "titulo": "Sueños de fuga",
+    "titulo_original": "The Shawshank Redemption",
+    "año": 1994,
+    "director": "Frank Darabont",
+    "actores_principales": ["Tim Robbins", "Morgan Freeman", "Bob Gunton"],
+    "generos": ["Drama"],
+    "duracion": 142,
+    "clasificacion": "R",
+    "sinopsis": "Un banquero es sentenciado a cadena perpetua por el asesinato de su esposa y su amante, a pesar de mantener su inocencia. En prisión, se hace amigo de otro recluso y se adapta a la dura vida tras las rejas mientras planea su escape.",
+    "puntaje_imdb": 9.3,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhZC00ZDIzLWFmNGEtZmI0YzExZWM1MDYyXkEyXkFqcGdeQXVyNzMxNDUzMTg@._V1_QL75_UX190_CR0,4,190,281_.jpg"
+  },
+  {
+    "id": "tt0068646",
+    "titulo": "El padrino",
+    "titulo_original": "The Godfather",
+    "año": 1972,
+    "director": "Francis Ford Coppola",
+    "actores_principales": ["Marlon Brando", "Al Pacino", "James Caan"],
+    "generos": ["Crimen", "Drama"],
+    "duracion": 175,
+    "clasificacion": "R",
+    "sinopsis": "El patriarca anciano de una dinastía del crimen organizado transfiere el control de su imperio clandestino a su hijo renuente.",
+    "puntaje_imdb": 9.2,
+    "poster": "https://m.media-amazon.com/images/M/MV5BM2MyNjYxNmUtYTAwNi00MTYxLWJmMzUtNjZiYTk2OTc2MjgyXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_QL75_UX190_CR0,4,190,281_.jpg"
+  },
+  {
+    "id": "tt0468569",
+    "titulo": "El caballero oscuro",
+    "titulo_original": "The Dark Knight",
+    "año": 2008,
+    "director": "Christopher Nolan",
+    "actores_principales": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
+    "generos": ["Acción", "Crimen", "Drama"],
+    "duracion": 152,
+    "clasificacion": "PG-13",
+    "sinopsis": "Cuando la amenaza conocida como el Joker causa estragos y caos en la gente de Gotham, Batman debe aceptar una de las mayores pruebas psicológicas y físicas de su capacidad para luchar contra la injusticia.",
+    "puntaje_imdb": 9.0,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk0Mw@@._V1_QL75_UX190_CR0,4,190,281_.jpg"
+  },
+  {
+    "id": "tt0071562",
+    "titulo": "El padrino: Parte II",
+    "titulo_original": "The Godfather: Part II",
+    "año": 1974,
+    "director": "Francis Ford Coppola",
+    "actores_principales": ["Al Pacino", "Robert De Niro", "Robert Duvall"],
+    "generos": ["Crimen", "Drama"],
+    "duracion": 202,
+    "clasificacion": "R",
+    "sinopsis": "La historia temprana de Vito Corleone en la Nueva York de la década de 1920 se contrasta con el ascenso de su hijo Michael como el nuevo Don.",
+    "puntaje_imdb": 9.0,
+    "poster": "https://m.media-amazon.com/images/M/MV5BMWU5N2JlYjctM2MwYy00ODQ3LTgwOTMtYjQ2MWI1M2ZiYmU1XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_QL75_UX190_CR0,4,190,281_.jpg"
+  },
+  {
+    "id": "tt0108052",
+    "titulo": "La lista de Schindler",
+    "titulo_original": "Schindler's List",
+    "año": 1993,
+    "director": "Steven Spielberg",
+    "actores_principales": ["Liam Neeson", "Ralph Fiennes", "Ben Kingsley"],
+    "generos": ["Biografía", "Drama", "Historia"],
+    "duracion": 195,
+    "clasificacion": "R",
+    "sinopsis": "En Polonia durante la Segunda Guerra Mundial, Oskar Schindler, un empresario alemán, gradualmente se preocupa por su fuerza de trabajo judía después de presenciar su persecución por parte de los nazis.",
+    "puntaje_imdb": 9.0,
+    "poster": "https://m.media-amazon.com/images/M/MV5BNDE4OTMxMTctNmYwZi00M2RjLThlYjUtYTAwNzMxNzg3NzFlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_QL75_UX190_CR0,4,190,281_.jpg"
+  }
+]

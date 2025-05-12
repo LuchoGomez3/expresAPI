@@ -1,0 +1,33 @@
+import express from "express";
+import { config } from "dotenv";
+import { corsMiddleware } from "./middlewares/cors.js";
+import { moviesRouter } from "./routes/movies.js";
+
+config();
+const { PORT, URL_LOCAL } = process.env;
+const app = express();
+
+// Middlewares
+app.disable("x-powered-by");
+app.use(express.json());
+app.use(corsMiddleware());
+
+app.get("/", (req, res, next) => {
+  res.status(200).send("<h1>Hola Mundo con express</h1>");
+});
+
+// ROUTES
+app.use("/movies", moviesRouter);
+
+app.get("/users", (req, res, next) => {
+  res.status(200).send("<h1>users</h1>");
+});
+
+app.use(() => {
+  res.status(404);
+  res.send("<h1>404</h1>");
+});
+
+app.listen(PORT, () => {
+  console.log(`Servidor corriendo en ${URL_LOCAL}`);
+});
