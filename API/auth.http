@@ -1,0 +1,7 @@
+POST http://localhost:1234/auth/login
+Content-Type: application/json
+
+{
+  "email": "martin.rodriguez@example.net",
+"password": "Contr@s3ña!"
+}

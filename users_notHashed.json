@@ -6,7 +6,7 @@
     "birthday_year": 1997,
     "address": "Av. Rivadavia 1234, Buenos Aires",
     "email": "sofia.gomez@example.com",
-    "password": "$2b$10$0AmAWOeyGqzEaTykpUxAZuqZ7lB/dVpXuN41LyTR0auXbx.4Cve1y"
+    "password": "Segur0Cl@ve1"
   },
   {
     "id": "user-2",
@@ -15,7 +15,7 @@
     "birthday_year": 1990,
     "address": "Calle Corrientes 567, Córdoba",
     "email": "martin.rodriguez@example.net",
-    "password": "$2b$10$GUrEnY6GlpUqY897hHzbfulxAzVKxDdPpvdrpqLsg9Rl9EY6l3CfS"
+    "password": "Contr@s3ña!"
   },
   {
     "id": "user-3",
@@ -24,7 +24,7 @@
     "birthday_year": 2003,
     "address": "San Martín 890, Rosario",
     "email": "valentina.lopez@example.org",
-    "password": "$2b$10$6R8hrUFESlDWiLnj75tvSe3AUvCl2W13NPoKHPb2aFfvwTREOz5Cq"
+    "password": "MiCl@ve2025"
   },
   {
     "id": "user-4",
@@ -33,7 +33,7 @@
     "birthday_year": 1984,
     "address": "Belgrano 321, Mendoza",
     "email": "juan.perez@example.io",
-    "password": "$2b$10$Xmhf7kZvo4fIwKCJdsM.yO9ePdoQQmupHzsR2ziBMmUFXUoN/Tx2S"
+    "password": "P@$$wOrd99"
   },
   {
     "id": "user-5",
@@ -42,7 +42,7 @@
     "birthday_year": 1994,
     "address": "Independencia 789, Tucumán",
     "email": "lucia.fernandez@example.co",
-    "password": "$2b$10$ThLYFifuUzLgqHljTWn5vue19G6HOZdXpV4WWEmWmWX04LpNJ9MGG"
+    "password": "Cl@veS3gura"
   },
   {
     "id": "user-6",
@@ -51,7 +51,7 @@
     "birthday_year": 2000,
     "address": "Salta 456, Salta",
     "email": "mateo.gonzalez@example.ar",
-    "password": "$2b$10$B0Qig9YW6f4VYivbjgYvcexsHLll3VbhTBi7yW8LFIQOYcEYxkmTO"
+    "password": "P@ss123!"
   },
   {
     "id": "user-7",
@@ -60,7 +60,7 @@
     "birthday_year": 1987,
     "address": "Santa Fe 987, Santa Fe",
     "email": "agustina.diaz@example.biz",
-    "password": "$2b$10$AU.1qI6nvxXaWoxAY54ite4OnAi39jvmyWrHSwC/bhIoQPZVQOF/C"
+    "password": "C0ntr@123a"
   },
   {
     "id": "user-8",
@@ -69,7 +69,7 @@
     "birthday_year": 1996,
     "address": "Entre Ríos 234, Paraná",
     "email": "nicolas.sanchez@example.info",
-    "password": "$2b$10$XyOybjS.x74KAOh7fuDnP.8zi0Mzf2/hGN7yDZ40/mf6y2dpIgWJe"
+    "password": "Cl@ve_Segur@"
   },
   {
     "id": "user-9",
@@ -78,7 +78,7 @@
     "birthday_year": 1998,
     "address": "Corrientes 678, Posadas",
     "email": "camila.romero@example.name",
-    "password": "$2b$10$eFUv.bYn62DamyaiIv1J9.jsRyN.4Pk.ttrQiSSuNvTPavYYYhWFm"
+    "password": "M1Cl@veFuerte"
   },
   {
     "id": "user-10",
@@ -87,6 +87,6 @@
     "birthday_year": 1992,
     "address": "Mitre 543, Neuquén",
     "email": "sebastian.flores@example.tv",
-    "password": "$2b$10$BUO4CN2eHLhH8XwUp5giE.9.t0YFhy5llCsfjRZlEeuAsf5xR8Z2W"
+    "password": "P@$$wOrd_2025"
   }
 ]

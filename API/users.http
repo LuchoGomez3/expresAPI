@@ -9,6 +9,8 @@ GET http://localhost:1234/users?lastname=Gómez
 
 ### POST
 POST http://localhost:1234/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6InVzZXItMiIsImVtYWlsIjoibWFydGluLnJvZHJpZ3VlekBleGFtcGxlLm5ldCIsImlhdCI6MTc0NzE1MTEzNCwiZXhwIjoxNzQ3MTU0NzM0fQ.qX9ybpkvC4El_c0jdVEum9FEuu0tHY5x_dagjWsVluc
+
 Content-Type: application/json
 
 {
@@ -22,6 +24,8 @@ Content-Type: application/json
 
 ### PATCH
 PATCH http://localhost:1234/users/4b980335-1fed-433b-a79e-accfc31557e0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6InVzZXItMiIsImVtYWlsIjoibWFydGluLnJvZHJpZ3VlekBleGFtcGxlLm5ldCIsImlhdCI6MTc0NzE1MTEzNCwiZXhwIjoxNzQ3MTU0NzM0fQ.qX9ybpkvC4El_c0jdVEum9FEuu0tHY5x_dagjWsVluc
+
 Content-Type: application/json
 
 {

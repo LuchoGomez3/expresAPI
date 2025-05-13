@@ -1,14 +1,15 @@
 import { Router } from "express";
 import { UserController } from "../controllers/users.js";
+import { verifyToken } from "../middlewares/auth.js";
 
 export const userRouter = Router();
 
-userRouter.get("/", UserController.getAll);
+userRouter.get("/", verifyToken, UserController.getAll);
 
-userRouter.get("/:id", UserController.getByID);
+userRouter.get("/:id", verifyToken, UserController.getByID);
 
 userRouter.post("/", UserController.create);
 
-userRouter.patch("/:id", UserController.update);
+userRouter.patch("/:id", verifyToken, UserController.update);
 
-userRouter.delete("/:id", UserController.delete);
+userRouter.delete("/:id", verifyToken, UserController.delete);
