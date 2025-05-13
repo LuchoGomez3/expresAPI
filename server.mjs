@@ -2,6 +2,7 @@ import express from "express";
 import { config } from "dotenv";
 import { corsMiddleware } from "./middlewares/cors.js";
 import { moviesRouter } from "./routes/movies.js";
+import { userRouter } from "./routes/users.js";
 
 config();
 const { PORT, URL_LOCAL } = process.env;
@@ -18,10 +19,7 @@ app.get("/", (req, res, next) => {
 
 // ROUTES
 app.use("/movies", moviesRouter);
-
-app.get("/users", (req, res, next) => {
-  res.status(200).send("<h1>users</h1>");
-});
+app.use("/users", userRouter);
 
 app.use(() => {
   res.status(404);

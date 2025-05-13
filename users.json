@@ -1,0 +1,92 @@
+[
+  {
+    "id": "user-1",
+    "name": "Sofía",
+    "lastname": "Gómez",
+    "birthday_year": 1997,
+    "address": "Av. Rivadavia 1234, Buenos Aires",
+    "email": "sofia.gomez@example.com",
+    "password": "Segur0Cl@ve1"
+  },
+  {
+    "id": "user-2",
+    "name": "Martín",
+    "lastname": "Rodríguez",
+    "birthday_year": 1990,
+    "address": "Calle Corrientes 567, Córdoba",
+    "email": "martin.rodriguez@example.net",
+    "password": "Contr@s3ña!"
+  },
+  {
+    "id": "user-3",
+    "name": "Valentina",
+    "lastname": "López",
+    "birthday_year": 2003,
+    "address": "San Martín 890, Rosario",
+    "email": "valentina.lopez@example.org",
+    "password": "MiCl@ve2025"
+  },
+  {
+    "id": "user-4",
+    "name": "Juan",
+    "lastname": "Pérez",
+    "birthday_year": 1984,
+    "address": "Belgrano 321, Mendoza",
+    "email": "juan.perez@example.io",
+    "password": "P@$$wOrd99"
+  },
+  {
+    "id": "user-5",
+    "name": "Lucía",
+    "lastname": "Fernández",
+    "birthday_year": 1994,
+    "address": "Independencia 789, Tucumán",
+    "email": "lucia.fernandez@example.co",
+    "password": "Cl@veS3gura"
+  },
+  {
+    "id": "user-6",
+    "name": "Mateo",
+    "lastname": "González",
+    "birthday_year": 2000,
+    "address": "Salta 456, Salta",
+    "email": "mateo.gonzalez@example.ar",
+    "password": "P@ss123!"
+  },
+  {
+    "id": "user-7",
+    "name": "Agustina",
+    "lastname": "Díaz",
+    "birthday_year": 1987,
+    "address": "Santa Fe 987, Santa Fe",
+    "email": "agustina.diaz@example.biz",
+    "password": "C0ntr@123a"
+  },
+  {
+    "id": "user-8",
+    "name": "Nicolás",
+    "lastname": "Sánchez",
+    "birthday_year": 1996,
+    "address": "Entre Ríos 234, Paraná",
+    "email": "nicolas.sanchez@example.info",
+    "password": "Cl@ve_Segur@"
+  },
+  {
+    "id": "user-9",
+    "name": "Camila",
+    "lastname": "Romero",
+    "birthday_year": 1998,
+    "address": "Corrientes 678, Posadas",
+    "email": "camila.romero@example.name",
+    "password": "M1Cl@veFuerte"
+  },
+  {
+    "id": "user-10",
+    "name": "Sebastián",
+    "lastname": "Flores",
+    "birthday_year": 1992,
+    "address": "Mitre 543, Neuquén",
+    "email": "sebastian.flores@example.tv",
+    "password": "P@$$wOrd_2025"
+  }
+]

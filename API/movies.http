@@ -1,11 +1,11 @@
-### Productos
+### Movies
 GET http://localhost:1234/movies
 
-###
-GET http://localhost:1234/movies/tt0108052
+### Movies by Id
+GET http://localhost:1234/movies/421fba76-eea9-424f-be24-8e4ff900f5be
 
-### 
-GET http://localhost:1234/movies?genre=Drama
+### Movies by genre
+GET http://localhost:1234/movies?genre=Crimen
 
 ### POST
 POST http://localhost:1234/movies
@@ -25,8 +25,8 @@ Content-Type: application/json
       "poster": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk0Mw@@._V1_QL75_UX190_CR0,4,190,281_.jpg"
     }
 
-### Actualizar parcialmente una pelicula
-PATCH http://localhost:1234/movies/a42ea66c-09d9-4251-9fe6-31597900148c
+### PATCH
+PATCH http://localhost:1234/movies/19dcc9a3-1126-4179-a52b-08c7756ab8fc
 Content-Type: application/json
 
 {

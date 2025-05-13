@@ -1,6 +1,7 @@
 import { z } from "zod";
 import { titleValidation } from "./validations/stringValidations.js";
 const movieSchema = z.object({
+  titulo: z.string(titleValidation).min(3),
   titulo_original: z.string(),
   año: z.number().int().min(1900).max(2032),
   director: z.string(),
